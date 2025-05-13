@@ -1,0 +1,13 @@
+
+html{
+    background-color:#fff5ee;
+}
+
+div{
+    height: 40px; 
+    width: 600px;
+    background-color:#f08080;
+    color: black;
+    margin: 40px auto;
+    border: 5px solid red;
+} 
