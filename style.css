@@ -40,14 +40,14 @@ div.content{
 
 div.credits{
     width: 600px;
-    height: 180px;
+    height: auto;
+
+    padding: 0px;
 
     position: fixed;
-    bottom: 0px;
-    right: 0;
+    bottom: 0;
     left: 0;
-
-
+    right: 0;
 }
 
 li, .title, .content{
@@ -55,16 +55,15 @@ li, .title, .content{
 }
 
 .credits p{
-    display: inline-block;
     font-size: 20px;
 
-    border: 1px solid red;
-
-    position: static;
+    padding: 0px;
+    margin: 10px;
 }
 
 .author-photo{
     height: auto;
     width: 150px;
 
+    margin-left: auto;
 }
