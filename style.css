@@ -1,5 +1,13 @@
+/*UNIVERSAL SELECTORS*/
+
 *{
     box-sizing:border-box;
+}
+
+/*TYPE SELECTORS*/
+
+body{
+    background-color: #f0e6d7;
 }
 
 div{
@@ -9,27 +17,19 @@ div{
     margin: 10px auto;
     border: 3px solid #f4a460;
     padding-top: 8px;
-
+    
     font-size: 12px;
     background-color: #ffe4c4;
-
+    
     text-align: center;
-}
-
-ul{
-    list-style-position: inside;
 }
 
 li{
     color:#d2691e;
+    font-weight: bold;
 }
 
-.title{
-    padding: 0px;
-    margin: 0;
-    
-    color: #ffa72f;
-}
+/*CHAIN SELECTORS*/
 
 div.content{
     height: auto;
@@ -41,29 +41,43 @@ div.content{
 div.credits{
     width: 600px;
     height: auto;
-
+    
     padding: 0px;
-
+    
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
+/*GROUPS SELECTORS*/
+
 li, .title, .content{
     font-family: sans-serif;
 }
 
-.credits p{
-    font-size: 20px;
+ul, ol{
+    list-style-position: inside;
+}
 
+.credits p, .recipe-credits p{
+    font-size: 20px;
+    
     padding: 0px;
     margin: 10px;
 }
 
+/*CLASSES SELECTORS*/
+
+.title{
+    padding: 0px;
+    margin: 0;
+    
+    color: #ffa72f;
+}
 .author-photo{
     height: auto;
     width: 150px;
-
+    
     margin-left: auto;
 }
